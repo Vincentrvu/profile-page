@@ -47,3 +47,14 @@ nav ul li a:hover {
   object-fit: cover;
   background-attachment: fixed;
 }
+
+section {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
