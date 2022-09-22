@@ -57,4 +57,10 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.image-grid > img {
+  height: 43vw;
+  object-fit: cover;
 }
