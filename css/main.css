@@ -64,3 +64,8 @@ section {
   height: 43vw;
   object-fit: cover;
 }
+
+footer {
+  background-color: black;
+  color: #7dff5d;
+}
