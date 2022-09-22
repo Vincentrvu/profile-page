@@ -11,6 +11,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 nav {
   background-color: black;
   padding: .5rem;
@@ -51,6 +55,27 @@ nav ul li a:hover {
 section {
   max-width: 1500px;
   margin: 5rem auto;
+}
+
+.about h2 {
+  margin-bottom: 0;
+}
+
+.flex-about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-about > img {
+  flex-basis: 0;
+  flex-grow: 1;
+  height: 25vw;
+  object-fit: scale-down;
+}
+
+.about-text {
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
 .image-grid {
