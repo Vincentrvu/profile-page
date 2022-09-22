@@ -63,19 +63,24 @@ section {
 
 .flex-about {
   display: flex;
-  justify-content: space-between;
-}
-
-.flex-about > img {
-  flex-basis: 0;
-  flex-grow: 1;
-  height: 25vw;
-  object-fit: scale-down;
+	justify-content: space-between;
+	gap: 2rem;
 }
 
 .about-text {
-  flex-basis: 0;
-  flex-grow: 1;
+	flex-basis: 0;
+	flex-grow: 1;
+}
+
+.about-image {
+	flex-basis: 0;
+	flex-grow: 1;
+}
+
+.about-image > img {
+	max-width: 22vw;
+  height: auto;
+	border-radius: 2rem;
 }
 
 .image-grid {
