@@ -50,7 +50,7 @@ nav ul li a:hover {
 
 section {
   max-width: 1500px;
-  margin: 0 auto;
+  margin: 5rem auto;
 }
 
 .image-grid {
@@ -68,4 +68,6 @@ section {
 footer {
   background-color: black;
   color: #7dff5d;
+  text-align: center;
+  padding: 1.5rem;
 }
