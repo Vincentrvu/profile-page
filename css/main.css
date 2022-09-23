@@ -46,13 +46,11 @@ nav ul li a:hover {
   background-color: white;
   background-image: url("../images/comic-sketch.png");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center center;
-  object-fit: cover;
   background-attachment: fixed;
 }
 
-section {
+main {
   max-width: 1500px;
   margin: 5rem auto;
 }
